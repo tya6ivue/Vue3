@@ -1,23 +1,17 @@
 <template>
   <div id="app">
     <InputForm />
-    
-     <!-- <Assignment /> -->
   </div>
 </template>
 
 <script>
-
-import InputForm from './components/InputForm.vue'
-// import Assignment from './components/Assignment.vue'
+import InputForm from "./components/InputForm.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     InputForm,
-    
-    // Assignment
-  }
-}
+  },
+};
 </script>
 
 <style>
